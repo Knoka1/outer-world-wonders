@@ -39,8 +39,8 @@ const Business = () => {
             Together, we'll create a unique food delivery experience available
             to your customer
           </p>
-          <Button styles={`mt-10`} />
         </h2>
+        <Button styles={`mt-10`} />
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
