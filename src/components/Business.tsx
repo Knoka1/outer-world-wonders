@@ -39,7 +39,7 @@ const Business = () => {
             Together, we'll create a unique food delivery experience available
             to your customer
           </p>
-          <Button styles="mt-10" />
+          <Button styles={`mt-10`} />
         </h2>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
