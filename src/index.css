@@ -12,6 +12,12 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --green-gradient: linear-gradient(
+    90deg,
+    rgba(43, 174, 102, 1) 0%,
+    rgba(0, 65, 29, 1) 100%,
+    rgba(242, 242, 242, 1) 100%
+  );
 }
 
 * {
@@ -21,12 +27,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #2bae66ff 0.89%,
+    rgb(28, 172, 93) 17.23%,
+    rgb(11, 160, 78) 42.04%,
+    rgb(47, 156, 96) 55.12%,
+    rgb(7, 126, 60) 71.54%,
+    #2bae66ff 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,6 +49,17 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+.bg-green-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #2bae66ff 0.89%,
+    rgb(28, 172, 93) 17.23%,
+    rgb(11, 160, 78) 42.04%,
+    rgb(47, 156, 96) 55.12%,
+    rgb(7, 126, 60) 71.54%,
+    #2bae66ff 100%
   );
 }
 
@@ -108,7 +125,7 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--green-gradient);
   box-shadow: var(--card-shadow);
 }
 
@@ -121,7 +138,11 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: var(--green-gradient);
+}
+/* esse cara aqui não funda pq? */
+.nav-text:hover {
+  color: var(--green-gradient);
 }
 
 .blue__gradient {

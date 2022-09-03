@@ -13,15 +13,15 @@ const FeatureCard = ({ icon, title, content, index }: any) => {
       } feature-card`}
     >
       <div
-        className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+        className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-black`}
       >
         <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
       </div>
       <div className="flex-1 flex flex-col ml-3">
-        <h4 className="font-poppings font-semibold text-white text-[18px] leading-[23px]">
+        <h4 className="font-poppings font-semibold text-black text-[18px] leading-[23px]">
           {title}
         </h4>
-        <p className="font-poppings font-normal text-dimWhite text-[16px] leading-[24px]">
+        <p className="font-poppings font-normal text-black text-[16px] leading-[24px]">
           {content}
         </p>
       </div>
@@ -30,14 +30,14 @@ const FeatureCard = ({ icon, title, content, index }: any) => {
 };
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="brands" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           You have the brand, <br className="sm:block hidden" /> we have the
           operation.
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Together, we'll create a unique food delivery experience available
-            to your customer
+            to your customer through our partners accross the country.
           </p>
         </h2>
         <Button styles={`mt-10`} />

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-import { close, logo, menu, wow_logo } from "../assets";
+import { close, menu, wow_logo } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] 
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} 
-            text-white`}
+            text-black`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] 
             ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} 
-            text-white`}
+            text-black nav-text`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>

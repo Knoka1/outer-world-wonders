@@ -21,12 +21,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "brands",
+    title: "For Brands",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "restaurants",
+    title: "For Restaurants",
   },
   {
     id: "clients",
