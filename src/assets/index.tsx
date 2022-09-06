@@ -23,8 +23,10 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 
+import alien_icon from "./alien-icon.svg";
 import wow_logo from "./wow_logo.svg";
 import hero_section from "./HeroSection.png";
+import money_icon from "./money-icon.svg";
 
 export {
   airbnb,
@@ -53,4 +55,6 @@ export {
   people03,
   wow_logo,
   hero_section,
+  alien_icon,
+  money_icon,
 };

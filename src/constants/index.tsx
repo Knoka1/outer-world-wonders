@@ -12,7 +12,9 @@ import {
   dropbox,
   send,
   shield,
+  money_icon,
   star,
+  alien_icon,
 } from "../assets";
 
 export const navLinks = [
@@ -38,23 +40,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Star Brands",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The biggest brands like you've never seen before. Top quality food. A new way to connect to your customers.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: alien_icon,
+    title: "Alien Wonders",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Food like you've never seen before. Delivered from the closest place home. All over the country",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: money_icon,
+    title: "Diversify Revenue",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Branch into a new market and diversify your revenue by seamlessly joining the food business",
   },
 ];
 
