@@ -10,10 +10,10 @@ const CTA = () => {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col">
-        <h2 className={styles.heading2}>
-          Interested? Let's talk about it now!
+        <h2 className={`${styles.heading2} text-white`}>
+          Let's talk about it!
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
           Contact us right now!
         </p>
       </div>

@@ -16,12 +16,13 @@ const Billings = () => {
       </div>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Easily raise your revenue by selling new brands.{" "}
-          <br className="sm:block hidden" /> Easily expand your brand throughout
-          the country.
+          Easily raise your revenue by selling new virtual brands{" "}
+          <br className="sm:block hidden" /> using your current operation and
+          our system.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Good for restaurants, good for brands and good for your customers.
+          Earn more revenue by fishing with a bigger net and co-operating with
+          big brands.
         </p>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img

@@ -27,6 +27,7 @@ import alien_icon from "./alien-icon.svg";
 import wow_logo from "./wow_logo.svg";
 import hero_section from "./HeroSection.png";
 import money_icon from "./money-icon.svg";
+import ghostkitchen_icon from "./ghostkitchen_icon.svg";
 
 export {
   airbnb,
@@ -57,4 +58,5 @@ export {
   hero_section,
   alien_icon,
   money_icon,
+  ghostkitchen_icon,
 };

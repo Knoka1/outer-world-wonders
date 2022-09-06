@@ -140,7 +140,7 @@
 .feedback-card:hover {
   background: var(--green-gradient);
 }
-/* esse cara aqui não funda pq? */
+
 .nav-text:hover {
   color: var(--green-gradient);
 }
