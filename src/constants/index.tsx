@@ -49,14 +49,14 @@ export const features = [
     icon: alien_icon,
     title: "Alien Wonders",
     content:
-      "Food like you've never seen before. Delivered from the closest place home. All over the country",
+      "Food like you've never seen before. Delivered from the closest place home. All over the country.",
   },
   {
     id: "feature-3",
     icon: money_icon,
     title: "Diversify Revenue",
     content:
-      "Branch into a new market and diversify your revenue by seamlessly joining the food business",
+      "Branch into a new market and diversify your revenue by seamlessly joining the food business.",
   },
 ];
 
