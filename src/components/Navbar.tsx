@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { close, menu, wow_logo } from "../assets";
 import { navLinks } from "../constants";
@@ -15,16 +16,28 @@ const Navbar = () => {
         className="h-[124px] w-[97px]"
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] 
+        {navLinks.map((nav, index) =>
+          //Testar map com full function não a versão reduzida
+          nav.id === "home" ? (
+            <li
+              key={nav.id}
+              className={`font-poppins font-normal cursor-pointer text-[16px] 
+          ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} 
+          hover:text-[#2bae66ff]`}
+            >
+              <Link to="/">{nav.title}</Link>
+            </li>
+          ) : (
+            <li
+              key={nav.id}
+              className={`font-poppins font-normal cursor-pointer text-[16px] 
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} 
             hover:text-[#2bae66ff]`}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          )
+        )}
       </ul>
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
