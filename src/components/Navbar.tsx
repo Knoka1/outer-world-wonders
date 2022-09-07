@@ -16,16 +16,15 @@ const Navbar = () => {
         className="h-[124px] w-[97px]"
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) =>
-          //Testar map com full function não a versão reduzida
-          nav.id === "home" ? (
+        {navLinks.map((nav, index) => {
+          return nav.id === "home" || nav.id === "login" ? (
             <li
               key={nav.id}
               className={`font-poppins font-normal cursor-pointer text-[16px] 
           ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} 
           hover:text-[#2bae66ff]`}
             >
-              <Link to="/">{nav.title}</Link>
+              <Link to={nav.id === "home" ? "/" : "login"}>{nav.title}</Link>
             </li>
           ) : (
             <li
@@ -36,8 +35,8 @@ const Navbar = () => {
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
-          )
-        )}
+          );
+        })}
       </ul>
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
