@@ -4,7 +4,7 @@ import { Navbar } from "./components";
 import Home from "./views/Home";
 import Login from "./views/Login";
 import Dashboard from "./views/Dashboard";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import styles from "./style";
 

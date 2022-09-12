@@ -1,5 +1,5 @@
 import React from "react";
-import { discount, robot, hero_section } from "../assets";
+import { discount, hero_section } from "../assets";
 import GetStarted from "./GetStarted";
 import styles from "../style";
 

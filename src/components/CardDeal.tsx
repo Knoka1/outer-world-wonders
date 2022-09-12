@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "./Button";
-import { card, ghostkitchen_icon } from "../assets";
+import { ghostkitchen_icon } from "../assets";
 
 import styles, { layout } from "../style";
 

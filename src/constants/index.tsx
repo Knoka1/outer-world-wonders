@@ -10,8 +10,6 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
   money_icon,
   star,
   alien_icon,
