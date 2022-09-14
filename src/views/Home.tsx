@@ -10,6 +10,7 @@ import {
   Clients,
   CTA,
   Footer,
+  Navbar,
 } from "../components";
 
 import styles from "../style";
@@ -17,6 +18,11 @@ import styles from "../style";
 function Home() {
   return (
     <>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
       <div className={`bg-white ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
