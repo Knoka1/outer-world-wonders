@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { LockClosedIcon } from "@heroicons/react/20/solid";
+import { LockClosedIcon, ArrowSmallLeftIcon } from "@heroicons/react/20/solid";
 
 import { wow_logo } from "../assets/index";
 
@@ -10,11 +10,13 @@ function Login() {
     <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-md space-y-8">
         <div>
-          <img
-            className="mx-auto h-12 w-auto"
-            src={wow_logo}
-            alt="Your Company"
-          />
+          <Link to="/">
+            <img
+              className="mx-auto h-28 w-auto"
+              src={wow_logo}
+              alt="Your Company"
+            />
+          </Link>
           <h2 className="font-poppings font-semibold mt-6 text-center text-3xl tracking-tight text-gray-900">
             Sign in to your account
           </h2>
@@ -24,7 +26,7 @@ function Login() {
               href="#"
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
-              start your 14-day free trial
+              apply to be a partner
             </a>
           </p>
         </div>
@@ -88,7 +90,7 @@ function Login() {
           </div>
 
           <div>
-            <Link to="/dashboard">
+            <Link to="/orders">
               <button
                 type="submit"
                 className="group relative flex w-full justify-center rounded-md border border-transparent bg-[#2bae66ff] py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
